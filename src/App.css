@@ -1,0 +1,116 @@
+.App {
+  /* text-align: center; */
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Almarai', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+/* 
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+.login-form{
+  width: 350px;
+  height: 400px;
+  background-color: rgb(215, 243, 243);
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 10% auto;
+}
+
+.login-form form{
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  gap: 0.5rem;
+}
+
+.login-form form input{
+  width: 100%;
+  height: 2.5rem;
+  text-align: end;
+  border: none;
+  border-radius: 8px;
+  padding: 5px;
+
+}
+
+.Card-img{
+  width: 5rem;
+  height: 11rem;
+}
+
+.alctData{
+   flex-direction: row;
+}
+
+.cardSide{
+  border: 2px solid red;
+  
+}
+
+.sction_discount{
+  background-color: rgb(65, 61, 61);
+  color: rgb(199, 197, 197);
+  height: 6rem;
+}
+
+.descount{
+  padding: 4px;
+  border-radius: 8px;
+  color: yellow;
+  width: 5rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: bold;
+  /* transform: rotate(-20deg); */
+  border: 1px solid yellow;
+  margin-right: 5px;
+}
+
+
+.navs-listss .active{
+  font-weight: bolder;
+  border-bottom: 1px solid;
+}
+
+.footers{
+  background-color: rgb(224, 219, 211);
+}
