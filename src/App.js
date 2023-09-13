@@ -18,9 +18,9 @@ import Footer from './Component/Footer/Footer';
 const App = () => {
 
   return (
-    <SoppingCartProvider className="App">
+    <div className="App">   
+     <SoppingCartProvider >
           <NavbarComp/>
-        
           <Routes>
               <Route path='/' element={<HomePage />} />
               <Route path='/login' element={<Login/>} />
@@ -32,12 +32,14 @@ const App = () => {
               <Route path='/allCardDap' element={<DataAllDap/>} />
               <Route path='/allCardMatbkh' element={<MatbkhAllData/>} />
               <Route path='/allCardroom' element={<RoomAllData/>} />
-              <Route path='/detalseCard' element={<DetalseApp/>} />
-              {/* <Route path='/shoppingCart' element={<ShoppingCart/>} /> */}
+
+             
           </Routes>
 
           <Footer/>
      </SoppingCartProvider>
+      </div>
+
   );
 }
 

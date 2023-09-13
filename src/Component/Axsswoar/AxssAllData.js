@@ -7,7 +7,7 @@ import AxsswoarCatg from '../Catagory/CatagoryAxsswoar'
 const AxssAllData = () => {
     const newDataAxsswoar = DataAxsswoar.slice(0,4)
   return (
-    <Container>
+    <div>
         <AxsswoarCatg title='اكـسســـوار ' btntitle='الــمــزيد'/>
         <Row xs='1' md='2' lg='4' className=''>
             {
@@ -22,7 +22,7 @@ const AxssAllData = () => {
             }
         </Row>
 
-    </Container>
+    </div>
   )
 }
 

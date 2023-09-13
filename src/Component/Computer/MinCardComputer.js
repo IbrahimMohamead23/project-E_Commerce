@@ -6,7 +6,7 @@ import MinCardsComputer from '../Computer/minCarsComputer'
 const MinCardComputer = () => {
     const newComputerData = ComputerData.slice(0,4)
   return (
-    <Container>
+    <div>
           <ComputerCatg title='الاكترونيات' btntitle='المزيد'/>
 
           <Row xs='1' md='2' lg='4' className=''>
@@ -23,7 +23,7 @@ const MinCardComputer = () => {
 
     </Row>
     
-    </Container>
+    </div>
   )
 }
 

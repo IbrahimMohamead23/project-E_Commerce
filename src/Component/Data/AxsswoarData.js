@@ -12,17 +12,17 @@ import Axss11 from '../../imgas/acsewor/axss11.jpg'
 
 
 const DataAxsswoar = [
-    {id:41, title:'Axsswoar', prise:'15', img:`${Axss1}`},
-    {id:42, title:'Axsswoar', prise:'15', img:`${Axss2}`},
-    {id:43, title:'Axsswoar', prise:'15', img:`${Axss3}`},
-    {id:44, title:'Axsswoar', prise:'15', img:`${Axss4}`},
-    {id:45, title:'Axsswoar', prise:'15', img:`${Axss5}`},
-    {id:46, title:'Axsswoar', prise:'15', img:`${Axss7}`},
-    {id:47, title:'Axsswoar', prise:'15', img:`${Axss6}`},
-    {id:48, title:'Axsswoar', prise:'15', img:`${Axss8}`},
-    {id:49, title:'Axsswoar', prise:'15', img:`${Axss9}`},
-    {id:50, title:'Axsswoar', prise:'15', img:`${Axss10}`},
-    {id:51, title:'Axsswoar', prise:'15', img:`${Axss11}`},
+    {id:41, title:'Scrin', prise:'15', img:`${Axss1}`},
+    {id:42, title:'hand fere', prise:'18', img:`${Axss2}`},
+    {id:43, title:'Stand', prise:'25', img:`${Axss3}`},
+    {id:44, title:'hand fre', prise:'19', img:`${Axss4}`},
+    {id:45, title:'Paower panck', prise:'17', img:`${Axss5}`},
+    {id:46, title:'hand fre', prise:'12', img:`${Axss7}`},
+    {id:47, title:'Usp', prise:'19', img:`${Axss6}`},
+    {id:48, title:'maick', prise:'13', img:`${Axss8}`},
+    {id:49, title:'grap', prise:'16', img:`${Axss9}`},
+    {id:50, title:'arpds', prise:'14', img:`${Axss10}`},
+    {id:51, title:'Cafer', prise:'19', img:`${Axss11}`},
 ]
 
 export default DataAxsswoar

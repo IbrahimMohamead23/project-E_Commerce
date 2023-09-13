@@ -6,7 +6,7 @@ import AllCoputerCardData from './AllCoputerData'
 
 const AllComputerData = () => {
   return (
-    <Container>
+    <div>
         <SictionTitle title='الاكترونيات'/>
         <Row xs='1' md='2' lg='4'>
             {
@@ -21,7 +21,7 @@ const AllComputerData = () => {
             }
         </Row>
 
-    </Container>
+    </div>
   )
 }
 

@@ -7,7 +7,7 @@ import SictionTitle from '../HomePage/SectionTitle'
 const AllDataAxss = () => {
 
   return (
-    <Container>
+    <div>
         <SictionTitle title='اكـسســـوار'/> 
 
         <Row xs='1' md='2' lg='4'  >
@@ -22,7 +22,7 @@ const AllDataAxss = () => {
         })
        }
     </Row>
-    </Container>
+    </div>
   )
 }
 

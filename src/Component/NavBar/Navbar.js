@@ -10,8 +10,8 @@ const NavbarComp = () => {
   const {OpenCart, CartQuantity,} = useShoppingCart()
 
   return (
-    <Navbar expand="lg" className="bg-body-tertiary" >
-    <Container >
+    <Navbar expand="lg" className="bg-body-tertiary navs" >
+    <Container fluid >
       <Navbar.Brand >
         <NavLink to='/'>
             <img src={logoimg} alt='logo-img' style={{width:'3rem', height:'3rem'}}/>

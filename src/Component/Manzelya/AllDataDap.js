@@ -7,7 +7,7 @@ import MatbkhCatg from '../Catagory/CatagoryMatbkh'
 const AllDataDap = () => {
     const newDataDap = DataDap.slice(0,4)
   return (
-    <Container>
+    <div>
         <MatbkhCatg title='اجــهـزه كــهـربائيه' btntitle='الـمـزيد'/>
         <Row xs='1' md='2' lg='4' className=''>
              {
@@ -21,7 +21,7 @@ const AllDataDap = () => {
                 })
              }
         </Row>
-    </Container>
+    </div>
   )
 }
 

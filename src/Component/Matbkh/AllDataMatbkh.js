@@ -7,7 +7,7 @@ import MinDataMatbkh from './MinDataMatbkh'
 const AllDataMatbkh = () => {
   const newDataMatbkh = DataMatbkh.slice(0,4)
   return (
-    <Container>
+    <div>
 
         <ManzelyaCatg title='ادوات مـنـزلـيه' btntitle='الـمـزيد'/>
 
@@ -22,7 +22,7 @@ const AllDataMatbkh = () => {
                 })
             }
         </Row>
-    </Container>
+    </div>
   )
 }
 

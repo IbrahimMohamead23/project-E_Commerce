@@ -20,9 +20,9 @@ const newAllctData = AlctData.slice(0,8)
 
 const HomePage = ({goto}) => {
   return (
-    <>
+    <div>
         <Silder/>
-    <Container>
+    {/* <Container> */}
          <Catgory title='الاكثرمابيعا' btntitle='المزيد' />
          <Row xs={1} md={2} lg={4 } >
 
@@ -32,8 +32,8 @@ const HomePage = ({goto}) => {
             return(
           <Col key={item.id} style={{margin:'0.5rem 0'}}>
 
-                   <Cards {...item}/>
-                   {/* <DataCards {...item}/> */}
+                   {/* <Cards {...item}/> */}
+                   <DataCards {...item}/>
             </Col>
 
             )
@@ -62,8 +62,8 @@ const HomePage = ({goto}) => {
 
 
 
-    </Container>
-    </>
+    {/* </Container> */}
+    </div>
   )
 }
 

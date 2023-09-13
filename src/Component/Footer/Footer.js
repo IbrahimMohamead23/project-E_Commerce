@@ -12,11 +12,11 @@ const Footer = () => {
 
 
 <Col>
-     <h3>نحن دائماً جاهزون لمساعدتك</h3>
-     <p>تواصل معنا من خلال أي من قنوات الدعم التالية:</p>
+     <h3 className='text-center'>نحن دائماً جاهزون لمساعدتك</h3>
+     {/* <p>تواصل معنا من خلال أي من قنوات الدعم التالية:</p> */}
 </Col>
 
-<Col className='d-flex'>
+{/* <Col className='d-flex'>
 
     <di className='ms-4 '>
         <div className='d-flex justify-content-center'>
@@ -41,7 +41,7 @@ const Footer = () => {
     </di>
     
 
-</Col>
+</Col> */}
 
 </Row>
 

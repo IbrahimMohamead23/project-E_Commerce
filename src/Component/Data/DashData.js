@@ -13,16 +13,16 @@ import lcd11 from '../../imgas/Dash/lcd11.jpg'
 
 const DashData = [
     {id:52, title:'Tornado LCD', prise:450, img:`${lcd1}`},
-    {id:53, title:'Tornado LCD', prise:450, img:`${lcd2}`},
-    {id:54, title:'Tornado LCD', prise:450, img:`${lcd3}`},
-    {id:55, title:'Tornado LCD', prise:450, img:`${lcd4}`},
-    {id:56, title:'Tornado LCD', prise:450, img:`${lcd5}`},
-    {id:57, title:'Tornado LCD', prise:450, img:`${lcd6}`},
-    {id:58, title:'Tornado LCD', prise:450, img:`${lcd7}`},
-    {id:59, title:'Tornado LCD', prise:450, img:`${lcd8}`},
-    {id:60, title:'Tornado LCD', prise:450, img:`${lcd9}`},
-    {id:61, title:'Tornado LCD', prise:450, img:`${lcd10}`},
-    {id:62, title:'Tornado LCD', prise:450, img:`${lcd11}`},
+    {id:53, title:'Smart LCD', prise:650, img:`${lcd2}`},
+    {id:54, title:'AtA LCD', prise:550, img:`${lcd3}`},
+    {id:55, title:'Toshepa LCD', prise:750, img:`${lcd4}`},
+    {id:56, title:'samsoning LCD', prise:850, img:`${lcd5}`},
+    {id:57, title:'Frerish LCD', prise:550, img:`${lcd6}`},
+    {id:58, title:'Lg LCD', prise:650, img:`${lcd7}`},
+    {id:59, title:'Sky LCD', prise:550, img:`${lcd8}`},
+    {id:60, title:'hb LCD', prise:350, img:`${lcd9}`},
+    {id:61, title:'Dele LCD', prise:250, img:`${lcd10}`},
+    {id:62, title:'Apel LCD', prise:850, img:`${lcd11}`},
 ]
 
 export default DashData

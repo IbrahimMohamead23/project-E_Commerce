@@ -7,7 +7,7 @@ import DashCatg from '../Catagory/CatagoryDash'
 const DashMinData = () => {
     const newDashData = DashData.slice(0,4)
   return (
-    <Container>
+    <div>
         <DashCatg title='شــاشــات' btntitle='الـمزيد'/>
         <Row xs='1' md='2' lg='4' className=''>
             {
@@ -20,7 +20,7 @@ const DashMinData = () => {
                })
             }
         </Row>
-    </Container>
+    </div>
   )
 }
 

@@ -6,7 +6,7 @@ import SictionTitle from '../HomePage/SectionTitle'
 
 const DashAllData = () => {
   return (
-    <Container>
+    <div>
         <SictionTitle title='شــاشــات'/>
         <Row xs='1' md='2' lg='4'>
             {
@@ -20,7 +20,7 @@ const DashAllData = () => {
 
             }
         </Row>
-    </Container>
+    </div>
   )
 }
 

@@ -7,7 +7,7 @@ import RoomCatg from '../Catagory/CatagoryRoom'
 const AllRoomData = () => {
     const newDataRoom  = DataRoom.slice(0,4)
   return (
-    <Container>
+    <div>
       <RoomCatg title='غــرف نـوم' btntitle='الـمـزيد' />
       <Row xs='1' md='2' lg='4' className=''>
             {
@@ -20,7 +20,7 @@ const AllRoomData = () => {
                 })
             }
         </Row>
-    </Container>
+    </div>
   )
 }
 

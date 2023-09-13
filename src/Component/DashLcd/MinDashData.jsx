@@ -17,6 +17,7 @@ const MinDashData = ({id,img,title,prise}) => {
                  culpa labore rerum quae,
                   odio nihil.
             </Card.Text>
+            <h6>${prise}</h6>
             <div className='me-auto'>
               {quantity === 0 ? <Button className='w-100' onClick={() => increaseCartItems(id)}>Add to Cart</Button> :
                 <div className='d-flex align-items-center flex-column' style={{gap:'0.6rem'}}>

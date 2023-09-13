@@ -14,18 +14,18 @@ import frach3 from '../../imgas/frach3.jpg'
 
 const AlctData = [
     {id:1, title:'Lap top hp' , price: 500 ,img:`${lap1}` },
-    {id:2, title:'Iphon 13' ,   price: 500 ,img:`${mopail1}`},
-    {id:3, title:'Smart LG' ,   price: 500 ,img:`${smart1}`},
-    {id:4, title:'Frach'    ,   price: 500 ,img:`${dab1}` },
-    {id:5, title:'Lap top hp' , price: 500 ,img:`${hp2}` },
-    {id:6, title:'Iphon 13' ,   price: 500 ,img:`${axss1}`},
-    {id:7, title:'Smart LG' ,   price: 500 ,img:`${ma3}`},
-    {id:8, title:'Frach'    ,   price: 500 ,img:`${room}` },
-    {id:9, title:'Lap top hp' , price: 500 ,img:`${frach1}` },
-    {id:10, title:'Iphon 13' ,   price: 500 ,img:`${frach2}`},
-    {id:11, title:'Smart LG' ,   price: 500 ,img:`${oppo3}`},
-    {id:12, title:'Frach'    ,   price: 500 ,img:`${hp3}` },
-    {id:13, title:'Frach'    ,   price: 500 ,img:`${frach3}` },
+    {id:2, title:'Iphon 13' ,   price: 450 ,img:`${mopail1}`},
+    {id:3, title:'Smart LG' ,   price: 530 ,img:`${smart1}`},
+    {id:4, title:'Frach'    ,   price: 450 ,img:`${dab1}` },
+    {id:5, title:'Lap top hp' , price: 150 ,img:`${hp2}` },
+    {id:6, title:'Iphon 13' ,   price: 50 ,img:`${axss1}`},
+    {id:7, title:'Smart LG' ,   price: 170 ,img:`${ma3}`},
+    {id:8, title:'Frach'    ,   price: 200 ,img:`${room}` },
+    {id:9, title:'Lap top hp' , price: 230 ,img:`${frach1}` },
+    {id:10, title:'Iphon 13' ,   price: 510 ,img:`${frach2}`},
+    {id:11, title:'Smart LG' ,   price: 320 ,img:`${oppo3}`},
+    {id:12, title:'Frach'    ,   price: 240 ,img:`${hp3}` },
+    {id:13, title:'Frach'    ,   price: 320 ,img:`${frach3}` },
    
 ]
 

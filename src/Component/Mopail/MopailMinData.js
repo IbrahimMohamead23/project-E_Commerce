@@ -7,7 +7,7 @@ import MinDataMopail from './minDataMopail,'
 const MopailMinData = () => {
     const newMopailData = MopailData.slice(0,4)
   return (
-    <>
+    <div>
         <MopailCat title='مـوبـيلات' btntitle='المزيد'/>
         <Row xs='1' md='2' lg='4' className=''>
             {
@@ -22,7 +22,7 @@ const MopailMinData = () => {
             }
         </Row>
     
-    </>
+    </div>
   )
 }
 

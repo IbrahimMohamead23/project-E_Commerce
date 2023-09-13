@@ -16,6 +16,7 @@ const MinDataAxss = ({id,img,prise,title}) => {
              Neque dolores incidunt exercitationem 
              debitis sint rerum.
         </Card.Text>
+        <h6>${prise}</h6>
         <div className='me-auto'>
           {quantity === 0 ? <Button className='w-100' onClick={()=> increaseCartItems(id)}>Add to Cart</Button> : 
            

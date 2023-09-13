@@ -6,7 +6,7 @@ import SictionTitle from '../HomePage/SectionTitle'
 
 const DataAllDap = () => {
   return (
-    <Container>
+    <div>
         <SictionTitle title='اجــهـزه كــهـربائيه'/>
 
         <Row xs='1' md='2' lg='4'>
@@ -21,7 +21,7 @@ const DataAllDap = () => {
                 })
             }
         </Row>
-    </Container>
+    </div>
   )
 }
 

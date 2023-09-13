@@ -1,11 +1,12 @@
 import React from 'react'
-import { Button, Col, Row } from 'react-bootstrap'
+import { Button, Col, Container, Row } from 'react-bootstrap'
 import Arrow from '../../imgas/ArrowLeft.png'
 import { NavLink } from 'react-router-dom'
 
 const SictionTitle = ({title}) => {
   return (
-    <Row  className='d-flexjustify-content-between my-3'>
+   <Container>
+     <Row  className='d-flexjustify-content-between my-3'>
         <Col xs='9' md='10' lg='11'>
               <h2 style={{fontWeight:'bold'}}>{title}</h2>
         </Col>
@@ -19,6 +20,7 @@ const SictionTitle = ({title}) => {
         </Col>
 
         </Row>
+   </Container>
   )
 }
 

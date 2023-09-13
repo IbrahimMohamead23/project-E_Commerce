@@ -12,16 +12,16 @@ import room11 from '../../imgas/Room/room11.jpg'
 
 const DataRoom = [
     {id:84, title:'the Room' , prise:1700, img:`${room1}`},
-    {id:85, title:'the Room' , prise:1700, img:`${room2}`},
-    {id:86, title:'the Room' , prise:1700, img:`${room3}`},
-    {id:87, title:'the Room' , prise:1700, img:`${room4}`},
-    {id:88, title:'the Room' , prise:1700, img:`${room5}`},
-    {id:89, title:'the Room' , prise:1700, img:`${room6}`},
-    {id:90, title:'the Room' , prise:1700, img:`${room7}`},
+    {id:85, title:'the Room' , prise:1100, img:`${room2}`},
+    {id:86, title:'the Room' , prise:1200, img:`${room3}`},
+    {id:87, title:'the Room' , prise:1300, img:`${room4}`},
+    {id:88, title:'the Room' , prise:1400, img:`${room5}`},
+    {id:89, title:'the Room' , prise:1500, img:`${room6}`},
+    {id:90, title:'the Room' , prise:1600, img:`${room7}`},
     {id:91, title:'the Room' , prise:1700, img:`${room8}`},
-    {id:92, title:'the Room' , prise:1700, img:`${room9}`},
-    {id:93, title:'the Room' , prise:1700, img:`${room10}`},
-    {id:94, title:'the Room' , prise:1700, img:`${room11}`},
+    {id:92, title:'the Room' , prise:1200, img:`${room9}`},
+    {id:93, title:'the Room' , prise:1200, img:`${room10}`},
+    {id:94, title:'the Room' , prise:1300, img:`${room11}`},
 ]
 
 

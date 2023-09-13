@@ -6,7 +6,7 @@ import SelectionTitle from '../HomePage/SectionTitle'
 
 const RoomAllData = () => {
   return (
-    <Container>
+    <idv>
         <SelectionTitle title='غــرف نـوم'/>
         <Row xs='1' md='2' lg='4'>
             {
@@ -20,7 +20,7 @@ const RoomAllData = () => {
             }
 
         </Row>
-    </Container>
+    </idv>
   )
 }
 

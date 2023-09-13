@@ -6,7 +6,7 @@ import MatbakhMinData from './MatbakhMinData'
 
 const MatbkhAllData = () => {
   return (
-    <Container>
+    <div>
        <SictionTitle title='ادوات مـنـزلـيه'/>
       <Row xs='1' md='2' lg='4'>
           {
@@ -20,7 +20,7 @@ const MatbkhAllData = () => {
                 })
           }
       </Row>
-    </Container>
+    </div>
   )
 }
 

@@ -3,7 +3,7 @@ import { Card, Col, Row, Button, Container,} from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import { useShoppingCart } from '../Context/ShoppingCartContacxt'
 
-const DataCards = ({id,title,img}) => {
+const DataCards = ({id,title,img, price}) => {
   const {increaseCartItems, getItemsQuantity,decraseCartItem,removeItemCartItem,AddToDetalse} = useShoppingCart();
  
   const quantity =  getItemsQuantity(id)
@@ -20,6 +20,7 @@ const DataCards = ({id,title,img}) => {
                   Some quick example text to build on the card title and make up the
                   bulk of the card's content.
                 </Card.Text>
+                <h6>${price}</h6>
                 <div className='mt-auto'>
             {quantity === 0 ? <Button className='w-100' onClick={() => increaseCartItems(id)}>Add to Cart</Button> :
              <div className='d-flex align-items-center flex-column' style={{gap:'0.5rem'}}>

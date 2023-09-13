@@ -6,7 +6,7 @@ import SictionTitle from '../HomePage/SectionTitle'
 
 const AllMopailData = () => {
   return (
-   <Container>
+   <div>
      <SictionTitle title='مــوبــبيلات'/>
 
     <Row xs='1' md='2' lg='4'>
@@ -24,7 +24,7 @@ const AllMopailData = () => {
         }
 
     </Row>
-   </Container>
+   </div>
   )
 }
 

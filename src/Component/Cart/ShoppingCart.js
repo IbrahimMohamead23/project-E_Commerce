@@ -24,8 +24,7 @@ const {CloseCart,cartItems} = useShoppingCart();
 
         <Offcanvas.Body>
           <Stack gap={3}>
-            <h3>بسم الله</h3>
-
+           
            {
              cartItems.map((item) => {
               return(

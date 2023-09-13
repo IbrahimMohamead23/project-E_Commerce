@@ -13,17 +13,17 @@ import mt11 from '../../imgas/manzelya/tam12.jpg'
 
 
 const DataMatbkh = [
-    {id:73, title:'uonuonarr', prise:180, img:`${mt1}`},
-    {id:74, title:'uonuonarr', prise:180, img:`${mt5}`},
-    {id:75, title:'uonuonarr', prise:180, img:`${mt3}`},
-    {id:76, title:'uonuonarr', prise:180, img:`${mt4}`},
-    {id:77, title:'uonuonarr', prise:180, img:`${mt2}`},
-    {id:78, title:'uonuonarr', prise:180, img:`${mt6}`},
-    {id:79, title:'uonuonarr', prise:180, img:`${mt7}`},
-    {id:80, title:'uonuonarr', prise:180, img:`${mt8}`},
-    {id:81, title:'uonuonarr', prise:180, img:`${mt9}`},
-    {id:82, title:'uonuonarr', prise:180, img:`${mt10}`},
-    {id:83, title:'uonuonarr', prise:180, img:`${mt11}`},
+    {id:73, title:'Tefal', prise:180, img:`${mt1}`},
+    {id:74, title:'pride', prise:120, img:`${mt5}`},
+    {id:75, title:'Ceramic', prise:140, img:`${mt3}`},
+    {id:76, title:'Pyrex', prise:150, img:`${mt4}`},
+    {id:77, title:'Pyrex', prise:170, img:`${mt2}`},
+    {id:78, title:'Save it', prise:160, img:`${mt6}`},
+    {id:79, title:'distribtion', prise:110, img:`${mt7}`},
+    {id:80, title:'sofra', prise:100, img:`${mt8}`},
+    {id:81, title:'distribution', prise:180, img:`${mt9}`},
+    {id:82, title:'Pyrex', prise:130, img:`${mt10}`},
+    {id:83, title:'asali', prise:120, img:`${mt11}`},
 ]
 
 export default DataMatbkh

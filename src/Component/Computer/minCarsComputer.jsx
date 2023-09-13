@@ -2,7 +2,7 @@ import React from 'react'
 import { Button, Card, Col, Row } from 'react-bootstrap'
 import { useShoppingCart } from '../Context/ShoppingCartContacxt';
 
-const MinCardsComputer = ({id,img,title}) => {
+const MinCardsComputer = ({id,img,title,price}) => {
     const {increaseCartItems, getItemsQuantity,decraseCartItem,removeItemCartItem} = useShoppingCart();
     const quantity =  getItemsQuantity(id)
 
@@ -17,6 +17,8 @@ const MinCardsComputer = ({id,img,title}) => {
         Some quick example text to build on the card title and make up the
          bulk of the card's content.
         </Card.Text>
+        <h6>${price}</h6>
+
         <div className='mt-auto'>
           {quantity === 0 ? <Button className='w-100' onClick={() => increaseCartItems(id)}>Add to Cart</Button> :
             <div className='d-flex align-items-center flex-column' style={{gap:'0.5rem'}}>
